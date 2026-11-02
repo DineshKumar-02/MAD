@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#17171C"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/inputText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:hint="Enter expression"
+        android:textColorHint="#888888"
+        android:textColor="#FFFFFF"
+        android:textSize="32sp"
+        android:inputType="none"
+        android:textAlignment="center" />
+
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/inputText"
+        android:layout_marginTop="16dp"
+        android:columnCount="4"
+        android:orientation="horizontal">
+
+        <!-- Buttons for digits and operators -->
+        <Button android:id="@+id/btnC" android:text="C" />
+        <Button android:id="@+id/btnD" android:text="D" />
+        <Button android:id="@+id/btnDiv" android:text="/" />
+        <Button android:id="@+id/btnMul" android:text="*" />
+
+        <Button android:id="@+id/btn7" android:text="7" />
+        <Button android:id="@+id/btn8" android:text="8" />
+        <Button android:id="@+id/btn9" android:text="9" />
+        <Button android:id="@+id/btnSub" android:text="-" />
+
+        <Button android:id="@+id/btn4" android:text="4" />
+        <Button android:id="@+id/btn5" android:text="5" />
+        <Button android:id="@+id/btn6" android:text="6" />
+        <Button android:id="@+id/btnAdd" android:text="+" />
+
+        <Button android:id="@+id/btn1" android:text="1" />
+        <Button android:id="@+id/btn2" android:text="2" />
+        <Button android:id="@+id/btn3" android:text="3" />
+        <Button android:id="@+id/btnEquals" android:text="=" />
+
+        <Button android:id="@+id/btno" android:text="0" />
+        <Button android:id="@+id/btnDot" android:text="." />
+    </GridLayout>
+</RelativeLayout>

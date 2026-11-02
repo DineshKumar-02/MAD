@@ -1,0 +1,5 @@
+package com.madlab.exp_05_movie_ratings
+
+import io.flutter.embedding.android.FlutterActivity
+
+class MainActivity : FlutterActivity()

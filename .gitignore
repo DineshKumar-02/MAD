@@ -1,0 +1,23 @@
+# Flutter / Dart build artifacts
+**/build/
+**/.dart_tool/
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/.packages
+**/.pub-cache/
+**/.pub/
+
+# Android build artifacts
+**/.gradle/
+**/local.properties
+**/captures/
+**/gradle-app.setting
+**/*.apk
+**/*.aab
+
+# IDE & OS files
+.DS_Store
+Thumbs.db
+**/*.iml
+.idea/
+.vscode/launch.json.bak

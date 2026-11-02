@@ -1,0 +1,90 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "⭐ Master App (All 11 Experiments)",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/main.dart",
+      "args": ["-d", "chrome"]
+    },
+    {
+      "name": "Ex 01: Flutter & KMP Setup",
+      "request": "launch",
+      "type": "dart",
+      "program": "experiments/exp_01_flutter_setup/lib/main.dart",
+      "args": ["-d", "chrome"]
+    },
+    {
+      "name": "Ex 02: Widgets & GUI",
+      "request": "launch",
+      "type": "dart",
+      "program": "experiments/exp_02_widgets_ui/lib/main.dart",
+      "args": ["-d", "chrome"]
+    },
+    {
+      "name": "Ex 03: Native Calculator",
+      "request": "launch",
+      "type": "dart",
+      "program": "experiments/exp_03_calculator/lib/main.dart",
+      "args": ["-d", "chrome"]
+    },
+    {
+      "name": "Ex 04: 2D Gesture Game",
+      "request": "launch",
+      "type": "dart",
+      "program": "experiments/exp_04_2d_game/lib/main.dart",
+      "args": ["-d", "chrome"]
+    },
+    {
+      "name": "Ex 05: Movie Ratings",
+      "request": "launch",
+      "type": "dart",
+      "program": "experiments/exp_05_movie_ratings/lib/main.dart",
+      "args": ["-d", "chrome"]
+    },
+    {
+      "name": "Ex 06: HTTP Web Service",
+      "request": "launch",
+      "type": "dart",
+      "program": "experiments/exp_06_http_service/lib/main.dart",
+      "args": ["-d", "chrome"]
+    },
+    {
+      "name": "Ex 07: Shopping App",
+      "request": "launch",
+      "type": "dart",
+      "program": "experiments/exp_07_shopping_app/lib/main.dart",
+      "args": ["-d", "chrome"]
+    },
+    {
+      "name": "Ex 08: Push Notifications",
+      "request": "launch",
+      "type": "dart",
+      "program": "experiments/exp_08_push_notifications/lib/main.dart",
+      "args": ["-d", "chrome"]
+    },
+    {
+      "name": "Ex 09: Google Maps",
+      "request": "launch",
+      "type": "dart",
+      "program": "experiments/exp_09_google_maps/lib/main.dart",
+      "args": ["-d", "chrome"]
+    },
+    {
+      "name": "Ex 10: BMI Calculator",
+      "request": "launch",
+      "type": "dart",
+      "program": "experiments/exp_10_bmi_calculator/lib/main.dart",
+      "args": ["-d", "chrome"]
+    },
+    {
+      "name": "Ex 11: Object Detection",
+      "request": "launch",
+      "type": "dart",
+      "program": "experiments/exp_11_object_detection/lib/main.dart",
+      "args": ["-d", "chrome"]
+    }
+  ]
+}
+
